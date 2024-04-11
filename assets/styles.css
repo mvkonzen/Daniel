@@ -1,0 +1,55 @@
+/* Definição das variáveis de cores */
+:root {
+    --midnight-green: #05434Aff;
+    --ash-gray: #9EB8BCff;
+    --dark-cyan: #40989Fff;
+    --antiflash-white: #EFEFEFff;
+    --safety-orange: #E77817ff;
+}
+
+
+/* Estilo para o sidebar */
+.sidebar {
+    background-color: var(--dark-cyan); /* Cor de fundo do sidebar */
+    padding: 20px; /* Espaçamento interno do sidebar */
+}
+
+/* Estilo para a lista no sidebar */
+.nav-list {
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding: 0; /* Remove o preenchimento padrão da lista */
+    display: flex; /* Exibe os itens da lista em linha */
+}
+
+/* Estilo para os itens da lista no sidebar */
+.nav-list li {
+    margin-right: 20px; /* Adiciona espaçamento entre os itens da lista */
+}
+
+/* Estilo para os links no sidebar */
+.nav-link-custom {
+    color: var(--midnight-green); /* Cor do texto */
+    font-size: 18px; /* Tamanho da fonte */
+}
+
+/* Estilos para o formulário de coleta de dados */
+#coleta-form {
+    background-color: #f2f2f2; /* Cor de fundo cinza */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+    width: 50%; /* Largura do formulário */
+    margin: auto; /* Centralizar o formulário na página */
+}
+
+/* Estilos para os campos de entrada */
+#coleta-form input[type='text'],
+#coleta-form input[type='date'],
+#coleta-form button {
+    width: 100%; /* Largura total */
+    margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+/* Estilos para o título do formulário */
+#coleta-form h1 {
+    text-align: center; /* Centralizar o título */
+}
